@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{D162AB0A-F27E-4381-9120-46977B026A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.XUNIT.Tests", "app.XUNIT.Tests\app.XUNIT.Tests.csproj", "{AF8DCAE2-7AD5-4CF5-8A4C-C5163969DE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{FB05F51A-8918-4568-B0C8-5265699B2B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D162AB0A-F27E-4381-9120-46977B026A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D162AB0A-F27E-4381-9120-46977B026A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D162AB0A-F27E-4381-9120-46977B026A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D162AB0A-F27E-4381-9120-46977B026A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8DCAE2-7AD5-4CF5-8A4C-C5163969DE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8DCAE2-7AD5-4CF5-8A4C-C5163969DE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8DCAE2-7AD5-4CF5-8A4C-C5163969DE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8DCAE2-7AD5-4CF5-8A4C-C5163969DE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB05F51A-8918-4568-B0C8-5265699B2B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB05F51A-8918-4568-B0C8-5265699B2B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB05F51A-8918-4568-B0C8-5265699B2B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB05F51A-8918-4568-B0C8-5265699B2B82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCDC50B4-3C09-4DCA-8951-2603C4F2D51D}
+	EndGlobalSection
+EndGlobal

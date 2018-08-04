@@ -41,7 +41,7 @@ namespace SeleniumTests
                     count++;
                 }
             }
-            Assert.Equal(2, count);
+            Assert.Equal(1, count);
             driver.Close();
             driver.Quit();
         }
